@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="./css/mobile.css"
+    />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <section id="form-holder">
+        <h1>Info Session With objectivity</h1>
+        <p class="l-text">
+          Objectivity is partnering with Unilak to hire the graduates from the
+          campus of Kigali please fill this form for you to be considered
+        </p>
+        <div class="container">
+          <form action="/" id="form">
+            <fieldset>
+              <legend class="personal-information">Personal Information</legend>
+              <div class="form-group-container">
+                <div class="form-group">
+                  <label for="fname"> First Name</label>
+                  <input
+                    class="full-width"
+                    type="text"
+                    name="fname"
+                    id="fname"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="lname"> Last Name</label>
+                  <input
+                    class="full-width"
+                    type="text"
+                    name="lname"
+                    id="lname"
+                    placeholder="Last Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email"> Email</label>
+                  <input
+                    class="full-width"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="email@gmail.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="password"> Password </label>
+                  <input
+                    class="full-width"
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="***********"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="brithdate"> Brithdate </label>
+                  <input
+                    class="full-width"
+                    type="date"
+                    name="brithdate"
+                    id="brithdate"
+                    placeholder=" MM/DD/YYYY"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="gender"> Your Gender </label>
+                  <span
+                    ><input
+                      type="radio"
+                      name="gender"
+                      id="male"
+                      value="male"
+                    />Male
+                  </span>
+
+                  <span>
+                    <input
+                      type="radio"
+                      name="gender"
+                      id="female"
+                      value="female"
+                    />Female
+                  </span>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend class="personal-information">Personal Address</legend>
+              <div class="form-group-container">
+                <div class="form-group">
+                  <label for="country">Country</label>
+                  <input
+                    class="full-width"
+                    type="text"
+                    name="country"
+                    id="country"
+                    placeholder="Enter country"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="district">District</label>
+                  <input
+                    class="full-width"
+                    type="text"
+                    name="district"
+                    id="district"
+                    placeholder="Enter your District"
+                  />
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend class="personal-information">
+                Qualification and experience
+              </legend>
+              <div class="form-group-container">
+                <div class="form-group">
+                  <label for="languages"
+                    >Please select maximum three languages you master</label
+                  >
+                  <select name="languages" id="languages" class="full-width">
+                    <option value="defult">Select A language</option>
+                    <option value="javascript">Javascript</option>
+                    <option value="java">Java</option>
+                    <option value="dart">Dart</option>
+                    <option value="python">Python</option>
+                    <option value="dotNet">.NET</option>
+                    <option value="ruby">Ruby</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="cv-upload">Upload your cv</label>
+                  <input type="file" name="cv-upload" id="cv-upload" />
+                </div>
+                <div class="form-group">
+                  <label for="eduLevel"
+                    >Please select maximum three languages you master</label
+                  >
+                  <select name="languages" id="eduLevel" class="full-width">
+                    <option value="defult">Education level</option>
+                    <option value="high school">High School</option>
+                    <option value="hnd">HND / BSC</option>
+                    <option value="msc">Msc</option>
+                    <option value="phd">Phd</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="year-of-grad"
+                    >Which was your graduation date</label
+                  >
+                  <input
+                    class="full-width"
+                    type="date"
+                    name="year-of-grad"
+                    id="year-of-grad"
+                  />
+                </div>
+                <div class="form-group master-lang">
+                  <label for="master-lang"
+                    >Which languages you want to master in the future
+                  </label>
+
+                  <label for="net">
+                    <input
+                      type="checkbox"
+                      name="master-lang"
+                      id="net"
+                      value=".Net"
+                    />
+                    .Net
+                  </label>
+
+                  <label for="java">
+                    <input
+                      type="checkbox"
+                      name="master-lang"
+                      id="java"
+                      value="java"
+                    />
+                    JAVA
+                  </label>
+
+                  <label for="ruby">
+                    <input
+                      type="checkbox"
+                      name="master-lang"
+                      id="ruby"
+                      value="Ruby on Rails"
+                    />
+                    Ruby on Rails
+                  </label>
+
+                  <label for="flutter">
+                    <input
+                      type="checkbox"
+                      name="master-lang"
+                      id="flutter"
+                      value="flutter"
+                    />
+                    Flutter
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend class="personal-information">Comment</legend>
+              <div class="form-group-container">
+                <div class="form-group">
+                  <textarea
+                    class="full-width"
+                    name=""
+                    id=""
+                    cols="40"
+                    rows="10"
+                    placeholder="Comment"
+                  ></textarea>
+                </div>
+              </div>
+            </fieldset>
+            <input type="submit" value="Submit" class="btn full-width" />
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

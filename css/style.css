@@ -1,0 +1,116 @@
+/* Resetting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.7rem;
+  background: linear-gradient(
+      115deg,
+      rgba(27, 27, 50, 0.8),
+      rgba(27, 27, 50, 0.8)
+    ),
+    url(../images/bg-survey-form.jpg) no-repeat center top/cover;
+  color: #fff;
+}
+form {
+  font-size: 1.8rem;
+}
+input,
+select {
+  border: none;
+}
+label {
+  display: block;
+  line-height: 2rem;
+  padding-bottom: 01rem;
+}
+fieldset {
+  border: 3px solid;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+/* legend {
+  padding-left: 1rem;
+} */
+#form-holder {
+  max-width: 60%;
+  margin: 3rem auto;
+}
+#form-holder h1 {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 5rem;
+  margin-bottom: 1.5rem;
+}
+#form-holder .l-text {
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 2.76rem;
+  margin-bottom: 4rem;
+}
+.container {
+  padding: 2.5rem 4rem;
+  background: rgba(51, 51, 51, 0.7);
+  border-radius: 1rem;
+}
+.form-group-container {
+  padding: 2.5rem 2.5rem 0.9rem 2.5rem;
+}
+.form-group-container .form-group {
+  padding-bottom: 2.5rem;
+}
+
+.form-group .full-width {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+.form-group span {
+  display: inline-block;
+  padding-right: 4rem;
+}
+input[type="radio"] {
+  height: 1.9rem;
+  width: 1.9rem;
+  padding-right: 1rem;
+}
+input[type="file"] {
+  border-radius: 0.5rem;
+  border: none;
+}
+textarea {
+  resize: none;
+}
+.btn {
+  background: #e7e7;
+  color: white;
+  font-size: 1.8rem;
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 0.5rem;
+  transition: 1s;
+}
+.btn:hover {
+  background: rgba(244, 193, 244, 0.467);
+}
+input[type="file"] {
+  width: 80%;
+}
+input::file-selector-button {
+  font-weight: bold;
+  color: dodgerblue;
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+}

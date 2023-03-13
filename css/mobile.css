@@ -1,0 +1,12 @@
+#form-holder h1 {
+  font-size: 2rem;
+
+  line-height: 3rem;
+}
+#form-holder .l-text {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+#form-holder {
+  max-width: 80%;
+}
